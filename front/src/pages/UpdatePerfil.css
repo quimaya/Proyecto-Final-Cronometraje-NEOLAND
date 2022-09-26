@@ -1,0 +1,152 @@
+section .formulario .updateNombre,
+.updateApellido,
+.updateClub,
+.updateUser,
+.updateAvatar,
+.updateFederado,
+.updateNacimiento {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: dashed var(--primary) 2px;
+
+}
+
+section .formulario .nuevoNombre,
+.nuevoApellido,
+.nuevoUsuario,
+.nuevoFederado,
+.nuevoClub,
+.nuevoAvatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+section .formulario .updateAvatar .avatarformulario {
+    display: flex;
+    flex-direction: row;
+align-items: center;
+}
+
+section .formulario .updateAvatar .avatarformulario p{
+    margin-right: 70px;
+}
+
+
+section .formulario .updateFederado .nuevoFederado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+section form h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* 
+section .formulario .updateFederado .nuevoFederado {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+section form .formulario {
+    display: flex;
+    border: 2px black solid;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary4);
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.updateAvatar img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+section form .formulario input {
+
+    background-color: var(--secondary2);
+
+}
+
+section form .formulario input:focus {
+
+    background-color: var(--secondary5);
+
+}
+
+section form .formulario button {
+    margin-bottom: 20px;
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    background-color: var(--primary2);
+    justify-content: center;
+    align-items: center;
+}
+
+section form .formulario button h3 {
+    color: var(--background);
+}
+
+
+section form .formulario button:hover {
+    background-color: var(--secondary);
+    color: var(--secondary2);
+
+
+}
+
+.nuevoNacimiento {
+    display: flex;
+    flex-direction: column;
+}
+
+section form .formulario {
+    width: 25%;
+}
+
+@media (max-width: 580px) {
+
+    section form .formulario {
+
+        width: 80%;
+
+
+    }
+}

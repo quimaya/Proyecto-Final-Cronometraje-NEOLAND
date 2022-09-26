@@ -1,0 +1,28 @@
+.postContainer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.postContainer .tituloPost {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: xxx-large;
+    width: 40%;
+}
+
+
+.postContainer img {
+
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.postContainer p{
+    width: 60%;
+}

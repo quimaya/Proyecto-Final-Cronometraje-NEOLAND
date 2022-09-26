@@ -1,0 +1,75 @@
+.blogCard {
+    width: 60%;
+    border: 0.5px var(--primary) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    ;
+
+}
+
+
+
+.blogCard .blogCard2 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 50px;
+    border-bottom: dashed 2px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px
+
+}
+
+.blogCard .blogCard2 .left .coverpost{
+    min-width: 150px;
+    max-width: 200px;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+.blogCard .blogCard2 .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blogCard .blogCard2 .right .right-up {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.blogCard .blogCard2 .right .right-up h2{
+ max-width: 200px;
+
+}
+
+.right-up h2:hover{
+    text-decoration: underline;
+}
+
+.right-down button {
+    background-color: var(--primary2);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    border: var(--primary) solid 2px;
+}
+
+.right-down button h2{
+color: var(--secondary2);
+font-size: larger;
+
+}
+
+
+.right-down button:hover {
+    background-color: var(--secondary);
+    border: 2px solid var(--primary) ;
+  
+    
+}

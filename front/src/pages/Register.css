@@ -1,0 +1,93 @@
+.registerUser {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerUser .registerForm{
+    display:flex;
+    flex-direction: column;
+    border: solid var(--primary) 2px;
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+    background-color: var(--secondary4);
+    align-items: center;
+    
+}
+
+.registerUser .registerForm .inputsRequeridos {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    width: 80%
+    ;
+}
+
+.registerUser .registerForm .inputsRequeridos .federado input {
+    margin-right: 5px;
+}
+
+
+.registerUser .registerForm .inputsRequeridos input {
+    text-align: center
+    ;
+}
+
+
+.registerUser .registerForm .inputsRequeridos select {
+    text-align: center
+    ;
+}
+
+
+
+.registerUser .registerForm .secondaryInputs {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    width: 80%
+
+}
+
+.registerUser .registerForm button {
+    margin-top: 30px;
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    background-color: var(--primary2);
+    justify-content: center;
+    align-items: center;
+}
+
+.registerUser .registerForm button:hover {
+    background-color: var(--secondary); 
+    color: var(--secondary2);
+}
+
+.registerUser .registerForm input:focus{
+    background-color: var(--secondary5);
+
+}
+
+
+.h3registro:hover{
+    text-decoration: underline;
+}
+
+.comunicacionesComerciales {
+    margin-top: 15px;
+    width: 80%;
+    
+}
+
+.comunicacionesComerciales .comunicaciones {
+    margin-bottom: 5px; }
+
+.comunicacionesComerciales .comunicaciones, .privacidad {
+    gap: 5px; }

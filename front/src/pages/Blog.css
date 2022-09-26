@@ -1,0 +1,11 @@
+section .BlogCard1 {
+display: flex;
+justify-content: center;
+}
+
+section .encabezadoblog {
+    text-align: center;
+    margin-left: 600px;
+    
+    margin-top: 20px;
+}

@@ -1,0 +1,231 @@
+header {
+    height: 20vh;
+}
+
+header .menuTop {
+    height: 10vh;
+    background-color: var(--primary2);
+
+}
+
+header .menuDown {
+    height: 10vh;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #D9E6ED;
+}
+
+header .menuTop ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+header .menuDown ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    gap: 80px;
+
+}
+
+header .menuDown .links {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+
+}
+
+header .menuDown ul .links h3 {
+    text-transform: none;
+
+}
+
+
+header .menuTop .menuleft {
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    align-items: center;
+
+
+}
+
+header .menuTop .menuright {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+    ;
+
+}
+
+
+header h2,
+header h3 {
+    color: var(--secondary2);
+}
+
+header h2:hover,
+header h3:hover {
+    color: var(--primary3);
+    text-decoration: underline;
+}
+
+header .menuDown h3 {
+    color: var(--primary2);
+    text-decoration: none;
+}
+
+
+header .menuDown h3:hover {
+    color: var(--primary3);
+    text-decoration: underline;
+}
+
+header .menuDown ul .logo li .logo-uno-home {
+    height: 50px;
+    transition: all 0.3s;
+
+}
+
+header .menuTop .menuright .avatar-logout {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+header .menuTop .menuright .avatar-logout div img {
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .menuTop .menuright .avatar-logout .avatar {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+header .menuTop .menuright .avatar-logout .bienvenido {
+    color: var(--background);
+}
+
+header .menuTop .menuright .avatar-logout div button:hover {
+    color: var(--primary3);
+    background-color: var(--primary);
+
+}
+
+header .menuDown ul .logo li .logo-uno-home:hover {
+
+    transform: scale(1.1);
+
+}
+
+header .menuTop .menuright .avatar-logout div button {
+    text-align: center;
+    border: var(--primary3) 2px solid;
+    border-radius: 10px;
+
+}
+
+header .menuTop .menuright .login-register {
+
+    color: var(--secondary2);
+
+}
+
+header .menuTop .menuright .login-register li .loginLink {
+    color: var(--secondary2);
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+header .menuTop .menuright .login-register li .registerLink {
+    color: var(--secondary2);
+    text-decoration: none;
+    margin-top: 15px;
+    width: 100%;
+}
+    header .menuDown .links {
+        align-items: center;
+    }
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+    .menuTop {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .menuTop .menuright {
+        margin-right: 50px;
+        margin-left: 0px
+    }
+
+    header .menuDown ul .logo li .logo-uno-home {
+        height: 40px;
+        margin-left: 10px;
+        transition: all 0.3s;
+
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+    header .menuDown ul .logo li .logo-uno-home {
+        height: 30px;
+        margin-left: 100px;
+        transition: all 0.3s;
+
+    }
+
+    header .menuTop .menuright .login-logout .avatar-logout {
+
+
+    }
+
+    header .menuTop .menuright .login-logout {
+
+
+    }
+
+    header .menuTop .menuright .login-logout .login-register {
+
+        
+    }
+
+    header .menuTop {
+
+        width: 100%;
+    }
+
+    header .menuDown .links {
+        align-items: center;
+    }
+
+    header .menuTop .menuright li {
+        display: none;
+    }
+
+    header .menuTop .menuright .login-logout .bienvenido {
+        display: none
+    }
+}

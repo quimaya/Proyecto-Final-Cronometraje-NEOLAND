@@ -1,0 +1,46 @@
+/* .eventosciclismo .eventosCard .cardCiclismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: solid 2px var(--primary2);
+    padding: 20px;
+}
+
+
+.eventosciclismo .eventosCard .cardCiclismo h2{
+    text-align: center;
+}
+
+.eventosciclismo .eventosCard .cardCiclismo h3{
+    text-align: center;
+    
+    color: var(--primary)
+}
+
+.eventosciclismo .eventosCard .cardCiclismo .cover{
+
+    width: 250px;
+    height: 200px;
+}
+
+.eventosciclismo .eventosCard {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary4);
+}
+
+.eventosciclismo {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.eventosciclismo .eventosCard .cardCiclismo h4:hover{
+    color: var(--primary);
+    font-size: large;
+}
+
+ */

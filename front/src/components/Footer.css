@@ -1,0 +1,65 @@
+.footer {
+    min-height: 15vh;
+    background-color: var(--secondary4);
+
+}
+
+.menuLegal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.menuEnlaces {
+    margin-top: 10px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.menusFooter {
+    
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 150px
+    
+}
+
+h4 {
+    text-align: center;
+}
+
+.footer .down {
+ 
+    text-align: center;
+    font-size: smaller
+    ;
+}
+
+.footer .down p {
+    font-size: medium
+}
+
+
+li:hover {
+    color:blue;
+text-decoration: underline;
+font-weight: bold;
+    
+}
+
+.footer h4{
+    color: var(--primary2);
+}
+
+.down {
+    margin-bottom: 5px;
+    margin-top:10px
+}
+
+

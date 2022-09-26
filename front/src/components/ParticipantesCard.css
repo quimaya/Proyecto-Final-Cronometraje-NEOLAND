@@ -1,0 +1,16 @@
+.participantescontainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary);
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 1000px;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.participantescontainer p{
+    width: 200px;
+
+}

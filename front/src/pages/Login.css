@@ -1,0 +1,72 @@
+.Login {
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px;
+    text-align: center;
+    border: 2px solid var(--primary);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary4);
+
+}
+
+.Login form p {
+    font-size: medium
+}
+
+
+.Login form input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary2);
+}
+
+.Login form input:focus {
+    background-color: var(--secondary5);
+}
+
+
+.Login form button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    background-color: var(--primary2);
+    justify-content: center;
+}
+
+
+.Login form button:hover {
+    background-color: var(--secondary);
+    color: var(--secondary2);
+
+}
+
+
+@media only screen and (max-width: 580px) {
+
+    .Login form {
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .Login form {
+        width: 40%;
+    }
+}

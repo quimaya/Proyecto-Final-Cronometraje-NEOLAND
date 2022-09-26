@@ -1,0 +1,110 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+section .formulario .linea1 input {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color: var(--secondary4);
+}
+
+section .formulario .linea1 input:focus {
+    
+    background-color: var(--secondary5);
+}
+
+section .formulario .seccion2 .linea2 input {
+    text-align: center;
+
+    height: 30px;
+    width: 60%;
+    background-color: var(--secondary4);
+}
+
+section .formulario .seccion2 .linea2 input:focus {
+    
+    background-color: var(--secondary5);
+}
+
+section .formulario {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .encabezado {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+section .formulario .linea1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 60%;
+
+}
+
+section .formulario .seccion2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+section .formulario .seccion2 .mensaje input {
+    text-align: center;
+    height: 100px;
+    width: 60%;
+    background-color: var(--secondary4);
+}
+
+section .formulario .seccion2 .mensaje input:focus {
+    text-align: left;
+    background-color: var(--secondary5);
+    text-decoration: bold;
+}
+
+section .formulario .botonEnviar button {
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    background-color: var(--primary2);
+    margin-bottom: 25px;
+
+}
+
+section .formulario .botonEnviar button h3 {
+    color: var(--secondary2);
+}
+
+section .formulario .botonEnviar button h3:hover {
+    color: var(--secondary4);
+}
+
+section .formulario .botonEnviar button:hover {
+    background-color: var(--secondary);
+
+}
+
+section .formulario .privacidad {
+display: flex;
+flex-direction: row;
+
+}
+section .formulario .privacidad label{
+    padding-left: 30px;
+}
+
+section .formulario .privacidad input{
+padding-left: 15px;
+}

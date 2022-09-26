@@ -1,0 +1,68 @@
+.eventosatletismo .eventosCard .cardAtletismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: solid 2px var(--primary2);
+    padding: 20px;
+}
+
+
+.eventosatletismo .eventosCard .cardAtletismo h2 {
+    text-align: center;
+}
+
+.eventosatletismo .eventosCard .cardAtletismo h3 {
+    text-align: center;
+
+    color: var(--primary)
+}
+
+.eventosatletismo .eventosCard .cardAtletismo .cover {
+
+    width: 250px;
+    height: 200px;
+}
+
+.eventosatletismo .eventosCard {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary4);
+    margin-bottom: 60px;
+    align-items: center;
+    
+
+}
+
+.eventosatletismo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+
+.eventosatletismo .eventosCard .cardAtletismo .infoevento:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.eventosatletismo .eventosCard .cardAtletismo h4 {
+
+    transition: all 0.3s;
+}
+
+.eventosatletismo .eventosCard .cardAtletismo img {
+border: 1px solid var(--primary);
+}
+
+.cardAtletismo h2:hover{
+text-decoration: underline;
+color: var(--secondary);
+}

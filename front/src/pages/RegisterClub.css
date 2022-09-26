@@ -1,0 +1,63 @@
+.registerClub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.registerClub .formularioclub{
+    display:flex;
+    flex-direction: column;
+    border: solid var(--primary) 2px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: var(--secondary4);
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+
+}
+
+.registerClub .formularioclub .Inputs1 {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    width:70%
+    ;
+}
+
+.registerClub .formularioclub .Inputs1 input{
+    
+    text-align: center
+    ;
+}
+
+.registerClub .formularioclub .secondaryInputs {
+    display:flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.registerClub .formularioclub button {
+    margin-top: 30px;
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    background-color: var(--primary2);
+    justify-content: center;
+    align-items: center;
+}
+
+.registerClub .formularioclub button:hover {
+    background-color: var(--secondary); 
+    color: var(--secondary2);
+}
+
+.registerClub .formularioclub input:focus{
+    background-color: var(--secondary5);
+
+}

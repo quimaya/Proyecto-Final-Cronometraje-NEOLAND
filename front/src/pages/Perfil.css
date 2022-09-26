@@ -1,0 +1,33 @@
+section .perfilContainer .updatePerfil h3:hover{
+    text-decoration: underline;
+}
+
+
+.perfildisplay h3:hover{
+    text-decoration: underline;
+}
+
+.updatePerfilSentence:hover{
+    text-decoration: underline;
+}
+
+.perfildisplay .welcome:hover{
+    text-decoration: underline;
+}
+
+
+.perfildisplay{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    height: 50vh;
+    margin-left: 400px;
+    border: 2px solid var(--primary);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--secondary4);
+    border-radius: 20px;
+    width: 40%;
+    ;
+}

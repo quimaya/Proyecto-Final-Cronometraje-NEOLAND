@@ -1,0 +1,62 @@
+.registerEvent {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.registerEvent .formulariocreacion{
+    display:flex;
+    flex-direction: column;
+    border: solid var(--primary) 2px;
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+    background-color: var(--secondary4);
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerEvent .formulariocreacion .primaryInputs {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center
+    ;
+}
+
+.registerEvent .formulariocreacion .secondaryInputs {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.registerEvent .formulariocreacion button {
+    margin-top: 30px;
+    border: var(--primary) 2px solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    background-color: var(--primary2);
+    justify-content: center;
+    align-items: center;
+}
+
+.registerEvent .formulariocreacion button:hover {
+    background-color: var(--secondary); 
+    color: var(--secondary2);
+}
+
+.registerEvent .formulariocreacion input:focus{
+    background-color: var(--secondary5);
+
+}
+
+.registerEvent .formulariocreacion  input
+{
+    text-align: center;
+    justify-content: center;}
+
+
+
