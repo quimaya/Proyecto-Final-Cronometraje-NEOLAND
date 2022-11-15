@@ -12,7 +12,9 @@ export const APIHeaders = {
 }
 
 export const API = axios.create ({
-    baseURL: "http://localhost:8080/api",
+    /*     baseURL: "http://localhost:8080/api",
+ */
+    baseURL: "http://18.159.246.168:8091/api/",
     timeout: 60000,
     headers: APIHeaders,
 })
